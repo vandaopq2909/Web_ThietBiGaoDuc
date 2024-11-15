@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 ﻿
 @{
     ViewBag.Title = "Index";
+=======
+﻿@{
+    ViewBag.Title = "Admin | NhanVien";
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
 }
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <style>
+<<<<<<< HEAD
+=======
+        /* Custom Search Container Style */
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
         .custom-search-container {
             display: flex;
             justify-content: space-between;
@@ -28,6 +37,39 @@
         #customSearchBox {
             font-size: 14px;
         }
+<<<<<<< HEAD
+=======
+
+        /* Table Styles */
+        #customerTable {
+            font-size: 14px;
+            border-collapse: separate;
+            width: 100%;
+        }
+
+            #customerTable th {
+                padding: 10px;
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+
+            #customerTable td {
+                padding: 8px;
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+
+        /* Pagination */
+        .pagination .page-link {
+            color: #007bff;
+        }
+
+        .pagination .page-item.active .page-link {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+        }
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
     </style>
 
 </head>
@@ -60,8 +102,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
+<<<<<<< HEAD
                         <div class="card-header">
                             <h4 class="card-title">Quản Lý Nhân Viên</h4>
+=======
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h4 class="card-title">Quản Lý Nhân Viên</h4>
+                            <a class="btn btn-primary btn-round ms-auto" href="/Admin/NhanVien/ThemNV">
+                                <i class="fa fa-plus"></i>
+                                Thêm Nhân Viên
+                            </a>
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
                         </div>
 
                         <div class="card-body">
@@ -108,10 +159,32 @@
                                             <td>MQ001</td>
                                             <td>
                                                 <div class="form-button-action">
+<<<<<<< HEAD
                                                     <button type="button" class="btn btn-link btn-primary btn-lg" data-bs-toggle="tooltip" title="Edit">
                                                         <i class="fa fa-edit"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-link btn-danger" data-bs-toggle="tooltip" title="Remove">
+=======
+                                                    <button type="button"
+                                                            data-bs-toggle="tooltip"
+                                                            title=""
+                                                            class="btn btn-link btn-primary btn-lg"
+                                                            data-original-title="Detail">
+                                                        <i class="fas fa-eye"></i>
+                                                    </button>
+                                                    <button type="button"
+                                                            data-bs-toggle="tooltip"
+                                                            title=""
+                                                            class="btn btn-link btn-primary btn-lg"
+                                                            data-original-title="Edit Task">
+                                                        <i class="fa fa-edit"></i>
+                                                    </button>
+                                                    <button type="button"
+                                                            data-bs-toggle="tooltip"
+                                                            title=""
+                                                            class="btn btn-link btn-danger"
+                                                            data-original-title="Remove">
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
                                                         <i class="fa fa-times"></i>
                                                     </button>
                                                 </div>

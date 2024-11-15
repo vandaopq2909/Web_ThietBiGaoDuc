@@ -5,7 +5,11 @@
 <style>
     input, textarea, select {
         max-width: none !important;
+<<<<<<< HEAD
     }   
+=======
+    }
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
 </style>
 <div class="container">
     <div class="page-inner">
@@ -20,6 +24,7 @@
                 <div class="card-title">Thông Tin Danh Mục</div>
             </div>
             <div class="card-body">
+<<<<<<< HEAD
                 <form>
                     <div class="d-flex justify-content-between">
                         <!-- MaDM -->
@@ -45,6 +50,30 @@
 
                     <!-- Submit Button -->
                     <button type="submit" class="btn btn-primary">Lưu Danh Mục</button>
+=======
+                <form action="/admin/danhmuc/them" method="post">
+                    <div class="d-flex justify-content-between">
+                        <!-- TenDanhMuc -->
+                        <div class="col-md-8 mb-3 px-2">
+                            <label for="TenDanhMuc" class="form-label">Tên Danh Mục</label>
+                            <input type="text" class="form-control" id="TenDanhMuc" name="TenDanhMuc" placeholder="Nhập tên danh mục" required>
+                        </div>
+                        <!-- TrangThai -->
+                        <div class="col-md-4 mb-3 px-2">
+                            <label for="TrangThai" class="form-label">Trạng Thái</label>
+                            <select class="form-select" id="TrangThai" name="TrangThai" required>
+                                <option value="" disabled>Chọn trạng thái</option>
+                                <option value="hoatdong" selected>Hoạt Động</option>
+                                <option value="daxoa">Đã Xóa</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Back Button & Submit Button -->
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-success mx-2" href="/admin/danhmuc">Quay Lại</a>
+                        <button type="submit" class="btn btn-primary mx-2">Lưu Danh Mục</button>
+                    </div>
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
                 </form>
             </div>
         </div>

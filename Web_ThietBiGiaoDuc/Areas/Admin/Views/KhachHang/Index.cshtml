@@ -1,10 +1,18 @@
 ﻿@{
+<<<<<<< HEAD
     ViewBag.Title = "Index";
+=======
+    ViewBag.Title = "Admin | KhachHang";
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
 }
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <style>
+<<<<<<< HEAD
+=======
+        /* Custom Search Container Style */
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
         .custom-search-container {
             display: flex;
             justify-content: space-between;
@@ -27,6 +35,39 @@
         #customSearchBox {
             font-size: 14px;
         }
+<<<<<<< HEAD
+=======
+
+        /* Table Styles */
+        #customerTable {
+            font-size: 14px;
+            border-collapse: separate;
+            width: 100%;
+        }
+
+            #customerTable th {
+                padding: 10px;
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+
+            #customerTable td {
+                padding: 8px;
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+
+        /* Pagination */
+        .pagination .page-link {
+            color: #007bff;
+        }
+
+        .pagination .page-item.active .page-link {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+        }
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
     </style>
 
 </head>
@@ -57,10 +98,20 @@
             </div>
             <div class="col-md-12">
                 <div class="card">
+<<<<<<< HEAD
                     <div class="card-header">
                         <h4 class="card-title">Quản Lý Khách Hàng</h4>
                     </div>
 
+=======
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h4 class="card-title">Quản Lý Khách Hàng</h4>
+                        <a class="btn btn-primary btn-round ms-auto" href="/Admin/KhachHang/ThemKH">
+                            <i class="fa fa-plus"></i>
+                            Thêm Khách Hàng
+                        </a>
+                    </div>
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
                     <div class="card-body">
                         <!-- Custom Search and Show Entries -->
                         <div class="custom-search-container">
@@ -76,7 +127,10 @@
                             </div>
                             <input type="text" id="customSearchBox" class="form-control" placeholder="Tìm kiếm..." style="width: 200px;">
                         </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
                         <!-- Table -->
                         <div class="table-responsive">
                             <table id="customerTable" class="display table table-striped table-hover">
@@ -94,6 +148,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
+<<<<<<< HEAD
                                         <td>KH001</td>
                                         <td>Nguyen Van A</td>
                                         <td>***********</td>
@@ -107,6 +162,36 @@
                                                     <i class="fa fa-edit"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-link btn-danger" data-bs-toggle="tooltip" title="Remove">
+=======
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <div class="form-button-action">
+                                                <button type="button"
+                                                        data-bs-toggle="tooltip"
+                                                        title=""
+                                                        class="btn btn-link btn-primary btn-lg"
+                                                        data-original-title="Detail">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                                <button type="button"
+                                                        data-bs-toggle="tooltip"
+                                                        title=""
+                                                        class="btn btn-link btn-primary btn-lg"
+                                                        data-original-title="Edit Task">
+                                                    <i class="fa fa-edit"></i>
+                                                </button>
+                                                <button type="button"
+                                                        data-bs-toggle="tooltip"
+                                                        title=""
+                                                        class="btn btn-link btn-danger"
+                                                        data-original-title="Remove">
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
                                                     <i class="fa fa-times"></i>
                                                 </button>
                                             </div>
@@ -116,7 +201,10 @@
                                 </tbody>
                             </table>
                         </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e548db (Sửa giao diện Admin Khách hàng và Nhân viên, thêm giao diện thêm khách hàng và nhân viên)
                         <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-center">
                                 <li class="page-item disabled">
